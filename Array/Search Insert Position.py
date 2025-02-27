@@ -1,3 +1,5 @@
+# Search Insert Position (Mode: Easy)
+
 class Solution(object):
     def searchInsert(self, nums, target):
         """
