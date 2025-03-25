@@ -1,6 +1,7 @@
 # Permutation || (Mode: Medium)
 
 class Solution(object):
+    
     def permuteUnique(self, nums):
         """
         :type nums: List[int]
