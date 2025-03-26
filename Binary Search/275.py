@@ -1,6 +1,7 @@
-# 275. H-Index II
+# 275. H-Index II (Mode: Medium)
 
 class Solution(object):
+
     def hIndex(self, citations):
         """
         :type citations: List[int]
@@ -19,8 +20,4 @@ class Solution(object):
                 right = mid - 1 
         
         return n - left
-
-solve = Solution()
-result = solve.hIndex([1,2,100])
-print(result)
         
