@@ -1,6 +1,7 @@
 # Two Sum (Mode: Easy)
 
 class Solution(object):
+    
     def twoSum(self, nums, target):
 
         num_to_index = {}
