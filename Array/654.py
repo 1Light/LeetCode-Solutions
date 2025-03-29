@@ -1,7 +1,13 @@
 # 654. Maximum Binary Tree (Mode: Medium)
 
+class TreeNode(object):
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution(object):
-    
+
     def constructMaximumBinaryTree(self, nums):
         """
         :type nums: List[int]
