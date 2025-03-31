@@ -1,5 +1,5 @@
 # 832. Flipping an Image (Mode: Easy)
-# Slower as it creates a new list and assigns it to the row[:] for every row
+# Both don't create a new matrix, so O(1) space complexity
 
 class Solution(object):
     
@@ -11,7 +11,7 @@ class Solution(object):
 
         for row in image:
             row.reverse()
-            row[:] = [1 - x for x in row]
+            for col in range(len(row)):
+                row[col] ^= 1
         
         return image
-        
