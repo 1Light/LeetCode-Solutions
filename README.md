@@ -55,6 +55,10 @@ If you would like to contribute to this repository by suggesting improvements to
 
 ---
 
+### Note
+
+Right now, leetcode uses an older version of python that doesn't allow certain features like f-strings.
+
 ### License
 
 This repository is open-source and available under the [MIT License](LICENSE).
